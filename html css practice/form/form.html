@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="form.css">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="main">
+		<div class="container">
+			<form action="">
+			<div class="item" id="item-1">
+				<label for="name">Name</label><br>
+				<input type="text" id="name" placeholder="ENTER YOUR NAME">
+			</div>
+			<div class="item" id="item-2">
+				<label for="email">Email</label><br>
+				<input type="email" id="email" placeholder="eg: abc@google.com">
+			</div>
+			<div class="item" id="item-3">
+				<label for="age">Age</label><br>
+				<input type="number" id="age">
+			</div>
+			<div class="item" id="item-4">
+				<label for="role">Which option best describes your current role?</label><br>
+				<select name="role" id="role" >
+				<option value="" disabled selected> --select your option--</option>
+				<option value="student">student</option>
+				<option value="full time job">full time job</option>
+				<option value="full time learner">full time learner</option>
+				<option value="prefer not to say">prefer not to say</option>
+				<option value="other">other</option></select>
+			</div>
+			<div class="item" id="item-5">
+				<label for="comment">Any comments or suggestions?</label><br>
+				<input type="texts" id="comment" placeholder="Enter your comment here..." >
+			</div>
+			<div class="item" id="item-6">
+				<input type="submit" value="submit">
+			</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

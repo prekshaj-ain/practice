@@ -1,0 +1,37 @@
+.container{
+	display: flex;
+	/*border: 2px solid black;*/
+	width: 70%;
+	height: 700px;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	background-color: cadetblue;
+	box-shadow: 5px 5px 70px grey;
+}
+.item{
+	/*border: 2px solid blue;*/
+	width: 80%;
+	height: 80px;
+	margin:  2px auto;
+	padding: 10px;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 20px;
+}
+input, select{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+}
+#item-6{
+	line-height: 80px;
+}
+input[type = submit]{
+	color: white;
+	background-color: black;
+	border-radius: 10px;
+	font-size: 20px;
+}
+input[type = submit]:hover{
+	background-color: blue;
+}
