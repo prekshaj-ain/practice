@@ -1,0 +1,218 @@
+*{
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav-container{
+			display: flex;
+			justify-content: flex-end;
+			position: relative;
+
+		}
+		.nav-container::before{
+			content: "";
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background-color: beige;
+			z-index: -3;
+		}
+		.logo{
+			width: 50px;
+			height: 50px;
+			border: 2px solid black;
+			text-align: center;
+			line-height: 50px;
+			font-family: 'Open Sans', 'sans-serif';
+			font-size: 30px;
+			margin-right: auto;
+			margin-left: 50px;
+		}
+		.nav-items{
+			width: 150px;
+			height: 50px;
+			/*border: 2px solid cadetblue;*/
+			/*margin:0px 5px;*/
+			text-align: center;
+			line-height: 50px;
+			font-family: 'Aclonica', sans-serif;
+			font-size: 15px;
+
+		}
+		.nav-items a{
+			text-decoration: none;
+			color: black;
+		}
+		a:hover{
+			color: white;
+		}
+		.home{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			/*border: 2px solid grey;*/
+			height: 438px;
+			
+		}
+		.home::before{
+			content: "";
+			position: absolute;
+			top: 0px;
+			height: 75vh;
+			width: 100%;
+			background: url("bg3.jpg") no-repeat center center/cover;
+			z-index: -2;
+			opacity: 0.6;
+		}
+		.primary{
+			font-family: 'Abril Fatface', 'cursive';
+			font-size: 65px;
+			color: white;
+			margin-top: 100px;
+		}
+		.btn{
+			margin: 30px 0px;
+			width: 250px;
+			height: 60px;
+			font-family: 'Open Sans', 'sans-serif';
+			background: none;
+			border-radius: 5px;
+			font-size: 18px;
+			border: 2px solid white;
+			color: white;
+		}
+		#a1{
+			text-decoration: none;
+			font-family: 'Open Sans', 'sans-serif';
+			color: white;
+
+		}
+		.btn:hover{
+			background: grey;
+			color: black;
+		}
+		/*services*/
+		#services{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.primary-h{
+			padding: 30px;
+			padding-bottom: 10px;
+			text-align: center;
+			font-family: 'Playfair Display', serif;
+		}
+		.secondary-h{
+			margin: 10px;
+			text-align: center;
+			font-family: 'Raleway', sans-serif;
+
+		}
+		.services-container::before{
+			content: "";
+			position: absolute;
+			background-color: beige;
+			height: 100%;
+			width: 100%;
+			z-index: -3;
+		}
+		.services-container{
+			position: relative;
+			height: 75vh;
+			width: 100%;
+			/*border: 2px solid grey;*/
+		}
+		.services-container>.primary-h{
+			font-size: 40px;
+		}
+		.box{
+			text-align: center;
+			width: 30%;
+			height: 350px;
+			/*border: 2px solid grey;*/
+			display: inline-block;
+		}
+		.box p{
+			margin: 30px 0px;
+		}
+		.box img{
+			height: 100px;
+			width: 100px;
+			
+		}
+		/*reservation section*/
+		#reservation::before{
+			content: "";
+			position: absolute;
+			background-color: #f0f4ff;
+			height: 100%;
+			width: 100%;
+			z-index: -3;
+		}
+		#reservation{
+			position: relative;
+			height: 100%;
+			width: 100%;
+			border: 2px solid #f0f4ff;
+		}
+		#reservation>.primary-h{
+			padding: 30px;
+			padding-bottom: 10px;
+			text-align: center;
+			font-family: 'Playfair Display', serif;
+			font-size: 40px;
+			margin-top: 60px;
+			margin-bottom: 0px;
+		}
+		.form{
+			display: flex;
+			/*border: 2px solid grey;*/
+			align-items: center;
+			width: 65%;
+			height: 60vh;
+			margin: 50px auto;
+			background: white;
+			box-shadow: 3px 3px 30px grey;
+
+		}
+		.element{
+			display: inline-block;
+			width: 25%;
+			height: 60px;
+			/*border: 2px solid grey;*/
+			padding: 10px 10px;
+			margin: 10px 20px;
+		}
+		.h,option{
+			font-family: 'Raleway', sans-serif;
+			color: grey;
+		}
+		input,select{
+			display: block;
+			height: 29px;
+			width: 219px;
+		}
+		#e-7{
+			display: block;
+			margin: 30px 35%;
+			text-align: center;
+
+		}
+		.btn1{
+			width: 219px;
+			height: 60px;
+			font-family: 'Open Sans', 'sans-serif';
+			background: none;
+			border-radius: 5px;
+			font-size: 18px;
+			border: 2px solid red;
+			color: red;
+		}
+		.btn1:hover{
+			background: red;
+			color: white;
+		}
+
+
+	

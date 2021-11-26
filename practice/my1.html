@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meal</title>
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aclonica&family=Open+Sans:wght@600&family=Zen+Antique&family=Playfair+Display&family=Raleway:wght@200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+		<nav class="nav-container">
+			<div class="logo">M</div>
+			<div class="nav-items" id="i-1"><a href="">HOME</a></div>
+			<div class="nav-items" id="i-2"><a href="">ABOUT US</a></div>
+			<div class="nav-items" id="i-3"><a href="">OUR MENU</a></div>
+			<div class="nav-items" id="i-4"><a href="">CONTACT US</a></div>
+		</nav>
+		<section class="home">
+			<h1 class="primary">Welcome To Meal</h1>
+			<button class="btn"><a id="a1" href="#reservation">RESERVE A TABLE</a></button>
+		</section>
+		<section class="services-container">
+			<h1 class="primary-h">OUR BEST SERVICES</h1>
+			<h1 class="secondary-h">Services We Offer</h1>
+			<div id="services">
+
+			 <div class="box">
+				<img src="soup.png" alt="service1">
+				<h1 class="primary-h">QUALITY CUISINE</h1>
+				<p class="secondary-h">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus labore, accusamus quam. Architecto hic, vero, repudiandae saepe recusandae quisquam pariatur veniam. Accusantium dolor excepturi a quisquam quo impedit est ratione!</p>
+			</div>
+			<div class="box">
+				<img src="healthy-food.png" alt="service2">
+				<h1 class="primary-h">FRESH FOOD</h1>
+				<p class="secondary-h">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, odio debitis! Expedita placeat harum, odit at deleniti, quia dolorum eos, debitis ex neque non? Doloribus ipsum vitae, voluptatibus quae dicta.</p>
+			</div>
+			<div class="box">
+				<img src="pancake.png" alt="service 3">
+				<h1 class="primary-h">BREAD & PANCAKES</h1>
+				<p class="secondary-h">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, labore deleniti esse modi nulla. Esse eveniet sit blanditiis eligendi aliquam aut accusamus, omnis voluptate quidem ratione. Et quasi, nisi exercitationem.</p>
+			</div>
+			</div>
+		</section>
+		<section id="reservation">
+			<h1 class="primary-h">RESERVATION</h1>
+			<h2 class="secondary-h">BOOK MY TABLE</h2>
+			<div class="form">
+				<form action="" autocomplete="on">
+					<div class="element" id="e-1">
+						<label for="Name"><h2 class="h">Name</h2></label>
+						<input type="text" id="Name">
+					</div>
+					<div class="element" id="e-2">
+						<label for="Email"><h2 class="h">Email</h2></label>
+						<input type="email" id="Email">
+					</div>
+					<div class="element" id="e-3">
+						<label for="Phone"><h2 class="h">Phone</h2></label>
+						<input type="number" id="Phone" maxlength="10">
+					</div>
+					<div class="element" id="e-4">
+						<label for="total"><h2 class="h">Number of Persons</h2></label>
+						<select name="total" id="total">
+							<option value="1 person">1 person</option>
+							<option value="2 persons">2 persons</option>
+							<option value="3 persons">3 persons</option>
+							<option value="4 persons">4 persons</option>
+							<option value="4+ persons">4+ persons</option>
+						</select>
+					</div>
+					<div class="element" id="e-5">
+						<label for="Date"><h2 class="h">Date</h2></label>
+						<input type="date" id="Date">
+					</div>
+					<div class="element" id="e-6">
+						<label for="Time"><h2 class="h">Time</h2></label>
+						<input type="time" id="Time">
+					</div>
+					<div class="element" id="e-7">
+						<input class="btn1" type="submit" value="RESERVE NOW">
+					</div>
+				</form>
+			</div>
+			
+		</section>
+</body>
+</html>
