@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <title>live clock</title>
+    <style>
+        .container {
+            /* border:1px solid blueviolet; */
+            width: 80%;
+            height: 30vh;
+            margin: 60px auto;
+            padding: 40px 20px;
+            background-color: rgb(186, 207, 246);
+            /* text-align: justify; */
+            /* line-height: 40vh; */
+            box-sizing: border-box;
+        }
+
+        .content {
+            font-family: 'Nanum Myeongjo', serif;
+            font-size: 60px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">Current Time Is:  <span id="time"></span></div>
+    </div>
+    <script>
+        let a, time, date;
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        setInterval(() => {
+            a = new Date();
+            time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
+            date = a.toLocaleDateString(undefined, options);
+            document.getElementById('time').innerHTML = time + " <br>on " + date;
+        }, 1000);
+
+    </script>
+</body>
+
+</html>
